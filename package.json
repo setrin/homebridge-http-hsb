@@ -1,0 +1,52 @@
+{
+  "author": {
+    "name": "Daniel Slavkovsky",
+    "email": "setrin@gmail.com"
+  },
+  "bugs": {
+    "url": "https://github.com/setrin/homebridge-http-hsb/issues"
+  },
+  "dependencies": {
+    "request": "^2.65.0"
+  },
+  "description": "Homebridge plugin to control a HSB device with HTTP requests.",
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-things": "^0.2.0",
+    "express": "^4.13.3",
+    "grunt": "^0.4.5",
+    "grunt-contrib-jshint": "^0.11.3",
+    "hap-nodejs": "0.0.3",
+    "mocha": "^2.3.4"
+  },
+  "directories": {},
+  "engines": {
+    "homebridge": ">=0.2.0",
+    "node": ">=0.12.0"
+  },
+  "homepage": "https://github.com/setrin/homebridge-http-hsb#readme",
+  "keywords": [
+    "homebridge-plugin"
+  ],
+  "license": "ISC",
+  "maintainers": [
+    {
+      "name": "setrin",
+      "email": "setrin@gmail.com"
+    }
+  ],
+  "name": "homebridge-http-hsb",
+  "optionalDependencies": {},
+  "preferGlobal": true,
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/setrin/homebridge-http-hsb.git"
+  },
+  "scripts": {
+    "lint": "grunt lint",
+    "prepublish": "grunt lint && mocha",
+    "test": "mocha test/simple.js"
+  },
+  "version": "1.0.0"
+}
