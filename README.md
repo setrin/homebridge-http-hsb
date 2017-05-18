@@ -65,3 +65,8 @@ string with no HTML markup.
 I needed a way to control my RGB Led strip from
 HomeKit/HomeBridge. I started using plugin [jnovack/homebridge-better-http-rgb](https://github.com/jnovack/homebridge-better-http-rgb), but soon i found out that RGB format of color
 doesn't suit my project, so i took base of the code and rewrote it to support HSB. Then I started eliminating get/set requests as ESP8266 (Controller for Led Strip I used) can't take multiple requests well (Hue, Saturation, Brightness, Power). I was able to merge this requests together, so only one get request is send to get all of the values. Later I added cache for get requests and set limiter.
+
+# To-do
+
+* Update tests
+* Remove temp sensor
